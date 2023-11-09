@@ -6,6 +6,9 @@
     "within_dss:Use cases": {
       "color": "#d66b9b"
     },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "section:Basics": {
       "color": "#00a55a"
     },
