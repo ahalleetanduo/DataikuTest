@@ -1,13 +1,15 @@
 {
   "type": "dataset_table",
   "params": {
-    "datasetSmartName": "Assets_at_high_priority",
+    "datasetSmartName": "Assets_at_high_priority_changed",
     "shakerScript": {
       "steps": [],
       "maxProcessedMemTableBytes": -1,
       "columnsSelection": {
         "mode": "ALL"
       },
+      "columnWidthsByName": {},
+      "columnUseScientificNotationByName": {},
       "coloring": {
         "scheme": "MEANING_AND_STATUS",
         "individualColumns": [],
@@ -17,16 +19,23 @@
       "analysisColumnData": {},
       "explorationSampling": {
         "selection": {
+          "maxRecordsForDisplay": -1,
           "maxStoredBytes": -1,
+          "timeout": -1,
           "filter": {
             "distinct": false,
             "enabled": false
           },
           "partitionSelectionMethod": "ALL",
           "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
           "samplingMethod": "HEAD_SEQUENTIAL",
           "maxRecords": 10000,
           "targetRatio": 0.02,
+          "ascending": true,
           "withinFirstN": -1,
           "maxReadUncompressedBytes": -1
         },
@@ -34,6 +43,25 @@
         "_refreshTrigger": 0
       },
       "vizSampling": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
         "autoRefreshSample": false,
         "_refreshTrigger": 0
       },
@@ -48,22 +76,25 @@
   "name": "Assets_at_high_priority",
   "dashboardCreationId": "GGF9nHC",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1486146727857
+    "lastModifiedOn": 1699559027817,
+    "extendedProperties": {}
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1486146727857
+    "lastModifiedOn": 1486146727857,
+    "extendedProperties": {}
   },
   "description": "",
   "shortDesc": "",
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

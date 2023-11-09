@@ -8,6 +8,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -22,7 +24,7 @@
     "main": {
       "items": [
         {
-          "ref": "Assets_at_high_priority",
+          "ref": "Assets_at_high_priority_changed",
           "appendMode": false
         },
         {
@@ -32,14 +34,17 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519407865029
+    "lastModifiedOn": 1699559027834,
+    "extendedProperties": {}
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

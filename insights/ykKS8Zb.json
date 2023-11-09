@@ -1,7 +1,7 @@
 {
   "type": "metrics",
   "params": {
-    "objectSmartId": "Assets_at_high_priority",
+    "objectSmartId": "Assets_at_high_priority_changed",
     "objectType": "DATASET",
     "metricId": "records:COUNT_RECORDS"
   },
@@ -10,20 +10,23 @@
   "name": "Record count of Assets_at_high_priority",
   "dashboardCreationId": "GGF9nHC",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1486147048354
+    "lastModifiedOn": 1699559027818,
+    "extendedProperties": {}
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1486147048354
+    "lastModifiedOn": 1486147048354,
+    "extendedProperties": {}
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
