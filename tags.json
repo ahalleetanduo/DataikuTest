@@ -1,14 +1,34 @@
 {
   "tags": {
-    "sample_project": {},
-    "within_dss:Use cases": {},
-    "section:Basics": {},
-    "downloads": {},
-    "visual recipe": {},
-    "dashboarding": {},
-    "section:Use cases": {},
-    "sample": {},
-    "gallery": {},
-    "creator_admin": {}
+    "sample_project": {
+      "color": "#d66b9b"
+    },
+    "within_dss:Use cases": {
+      "color": "#d66b9b"
+    },
+    "section:Basics": {
+      "color": "#00a55a"
+    },
+    "downloads": {
+      "color": "#de1ea5"
+    },
+    "visual recipe": {
+      "color": "#FFD83D"
+    },
+    "dashboarding": {
+      "color": "#00a55a"
+    },
+    "section:Use cases": {
+      "color": "#94be8e"
+    },
+    "sample": {
+      "color": "#123883"
+    },
+    "gallery": {
+      "color": "#FFD83D"
+    },
+    "creator_admin": {
+      "color": "#1ac2ab"
+    }
   }
 }
